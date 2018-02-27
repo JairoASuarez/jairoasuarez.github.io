@@ -1,10 +1,14 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: resume
+title: Resume
+permalink: /resume/
 ---
-### **About me**
 
-I am a Systems Engineering and Computer Science student with a strong interest in projects that require both conceptual and analytical thinking.  I have knowledge in Agile Development Methods, Full-Stack and Mobile Development. I am self-taught, organised, methodical and committed on every project I work.
+### Education
 
-### **Skills**
+
+<blockquote>
+<h4>B.E. in Systems and Computing Engineering, Universidad Nacional de Colombia</h4>
+<h5>Bogota, Colombia</h5>
+<h6>2013 - 2018</h6>
+</blockquote>

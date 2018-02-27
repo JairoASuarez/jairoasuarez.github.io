@@ -1,13 +1,13 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #009587;
+    background-color: #337ab7;
     padding: 50px 0 15px 0;
     width: 100%;
 }
 .full{ font-size: 16px; }
 .logo-img {
     width: 56px;
-    height: 56px;
+    height: 75px;
     border-radius: 60px;
     margin: 0 auto;
 }
@@ -55,7 +55,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #009688;
+    color: #337ab7;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -63,7 +63,7 @@ p.info a {
 }
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #009688;
+    background: #337ab7;
 }
 .menu ul li {
     list-style: none;
@@ -219,4 +219,49 @@ footer {
     color: #BBB;
     position: absolute;
     right: 12px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container2 {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 70%; background-color: #4CAF50;} /* Green */
+.cplusplus {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 40%; background-color: #f44336;} /* Red */
+.sql {width: 60%; background-color: #808080;} /* Dark Grey */
+.python {width: 80%; background-color: #3f51b5}
+.ror {width: 80%; background-color: #ff5722}
+.java {width: 90%; background-color: #a94442}
+
+body .container .jumbotron-primary, body .container .well-primary, body .container-fluid .jumbotron-primary, body .container-fluid .well-primary {
+    background-color: #337ab7;
+}
+
+.menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a {
+    background: #337ab7;
+}
+
+a, a:focus, a:hover {
+    color: #337ab7;
+}
+
+.btn-group-raised .btn.btn-primary, .btn-group-raised .input-group-btn .btn.btn-primary, .btn.btn-fab.btn-primary, .btn.btn-raised.btn-primary, .input-group-btn .btn.btn-fab.btn-primary, .input-group-btn .btn.btn-raised.btn-primary {
+    background-color: #337ab7;
+    color: rgba(255,255,255,.84);
+}
+
+.label.label-primary {
+    background-color: #337ab7;
 }
